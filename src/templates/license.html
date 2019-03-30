@@ -26,7 +26,6 @@
 	    <tr>
 		<th>Full name</th>
 		<th>Identifier</th>
-		<th>FSF Free/Libre?</th>
 		<th>OSI Approved?</th>
 		<th>License Category</th>
 	    </tr>
@@ -36,7 +35,6 @@
 	    <tr>
 		<td><a href={{ url_for('license_info', id=license.id) }} > {{ license.full_name }} </a></td>
 		<td> {{ license.identifier }} </td>
-		<td> {{ license.fsf_free_libre }} </td>
 		<td> {{ license.osi_approved }} </td>
 		<td> {{ license.license_category }} </td>
 	    </tr>
